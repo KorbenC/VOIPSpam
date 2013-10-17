@@ -1,4 +1,4 @@
-#VOIPSpam
+#VOIPSpam ([Demo](http://korbenc.github.io/VOIPSpam/))
 A Lua World of Warcraft addon for spamming your VOIP information to your raid group!
 
 Author: Korben Carreno (http://www.korbencarreno.com)  
