@@ -43,7 +43,7 @@ function VOIPSpam:OnEvent(event)
 		print("|cffC495DDVOIP SPAM:|r You currently have no settings for VOIP Spam.")
 		print("|cffC495DDVOIP SPAM:|r To set this, type: /voip set")
 	else
-		if VOIPInformation[4]:lower() == "ventrilo" then
+		if VOIPInformation[4]:lower() == "ventrilo" or VOIPInformation[4]:lower() == "vent" then
 			VOIPmsg = "We use "..VOIPInformation[4].." for voice chat."
 			VOIPloc = "It can be downloaded from: http://www.ventrilo.com/download.php"
 		elseif ( VOIPInformation[4]:lower() == "team speak" or VOIPInformation[4]:lower() == "ts" )then

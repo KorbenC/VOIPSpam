@@ -1,7 +1,7 @@
 ## Interface: 50400
-## Title: |cff00AAFFGuyver|r |cffFFFFFFVOIP|r
+## Title: |cff00AAFFVoIP|r|cffff7d0aSpam|r
 ## Author: Guyver of Bleeding Hollow - US
-## Version: 1.2
+## Version: 1.3
 ## Notes: Spam your VOIP information to your raid group!
 ## SavedVariables: VOIPInformation
 
