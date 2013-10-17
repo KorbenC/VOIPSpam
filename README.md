@@ -2,7 +2,7 @@
 A Lua World of Warcraft addon for spamming your VOIP information to your raid group!
 
 Author: Korben Carreno (http://www.korbencarreno.com)  
-Version: 1.2 2012-02-20)   
+Version: (1.2 2012-02-20)   
 Copyright 2012, Korben Carreno
 
 #Introduction
