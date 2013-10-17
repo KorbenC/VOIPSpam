@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8"
 		<title>VoIPSpam - WoW Addon</title>
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -9,6 +10,7 @@
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
 		<link rel="stylesheet" type="text/css" href="css/grid.css"/>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/slider.css"/>
 	</head>
 	<body>
 		<section id="content" class="base" data-speed="4" data-type="background">
@@ -19,28 +21,35 @@
 					<h2>World of Warcraft addon for spamming your VoIP information to your raid group!</h2>
 					
 				</div>
-                <div class="grid_6 about">
+                <div class="grid_4 about">
 					<p>VoIPSpam is a Lua addon for World of Warcraft that allows you save your VoIP information and spam to raid and/or party chat.</p>
 					<p>After using macros for years to spam my vent/mumble information to thousands of pubs I felt like developing something with a much sleeker UI such as ElvUI.</p> 
 					<p>Thus VoIPSpam was born, it saves and spams! all the necessary information your pubs will need to access your VoIP server.</p>
                 </div>
 				
+				
 				<div class="grid_5 work">
-					<img src="img/voip.png" alt="voip wow addon">
-				<div class="mask">
-					<h3>VoIPSpam</h3>
-					<br>
-					<span>Design & Development</span>
-					<br>
-					<br>
-					<br>
-					<a href="https://github.com/KorbenC/VOIPSpam" class="view" target="_blank">Download</a>
+				<div id="slider">
+					<div id="mask">
+						<ul>
+							<li><img src="img/voip.png" /></li>
+							<li><img src="img/voipspam.png" /></li>
+							<li><img src="img/voip.png" /></li>
+							<li><img src="img/voipspam.png" /></li>
+						</ul>
+						<div class="mask">
+							<h3>VoIPSpam</h3>
+							<br>
+							<span>Design & Development</span>
+							<br><br><br>
+							<a href="https://github.com/KorbenC/VOIPSpam" class="view" target="_blank">Download</a>
+						</div>
+					</div>
+					<div id="progress"></div>
+					<!--<div id="overlay"></div>
+					<div id="pause"></div>-->
 				</div>
-				<!--
-				<div class="grid_1 suffix_11 btnrow">
-				<a href="#" class="btn">Download</a>
-				</div>
-				-->
+				
 				</div>
 				<div class="grid_12 footer">
 					<p class="footer">Copyright 2013 Korben Carreno. <a href="mailto:KorbenC@gmail.com">KorbenC@gmail.com</a></p>
